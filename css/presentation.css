@@ -1,0 +1,27 @@
+.presentation {
+    background-color: white;
+    background-size: cover;
+    height: 100%;
+    object-fit: fill;
+}
+
+.div_pr {
+    background-color: white;
+    background-size: fill;
+    height:50px;
+    float: left;
+}
+
+.div_por {
+    background-color: white;
+    width:25%;
+    height:100%;
+    float: left;
+}
+
+.div_pro {
+    background-color: white;
+    width:75%;
+    height:100%;
+    float: left;
+}

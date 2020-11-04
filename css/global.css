@@ -1,0 +1,43 @@
+*
+{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    background: #e6e9e9;
+    background: url("../images/bg_imercy.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    margin-bottom: auto;
+}
+
+button {
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+footer {
+    background-color: grey;
+}
+
+
+.h1_title {
+    color: yellow;
+    font: small-caps bold 24px/1 sans-serif;
+    font-size: 3em;
+    float: left;
+    padding: 1.5%;
+}
+
+.nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 2%;
+    float: right;
+}

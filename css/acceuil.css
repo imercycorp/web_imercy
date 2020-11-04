@@ -1,0 +1,16 @@
+.acceuil {
+    font: small-caps bold 24px/1 sans-serif;
+    color: darkslategray;
+    text-align: center;
+    background-image: url("../images/bg_imercy.png");
+    background-size: cover;
+}
+
+.h2_acc {
+    padding-top: 20%;
+    padding-bottom: 2%;
+}
+
+.p_acc {
+    padding-bottom: 16%
+}
