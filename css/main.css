@@ -1,0 +1,55 @@
+/* Déclaration Global */
+
+*
+{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	
+	margin: 0;
+	padding: 0;
+}
+
+button {
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+.nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bu_trans {
+    transition-duration: 0.4s;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+    padding: 7px 32px;
+    margin-left: 1em;
+    color: white;
+    
+}
+
+.bu_trans:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Background */
+
+html {
+    background: #e6e9e9;
+    background: url("../images/bg_imercy.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Header */
+.h1_title {
+    color: yellow;
+    font: small-caps bold 24px/1 sans-serif;
+    font-size: 3em
+}
