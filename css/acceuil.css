@@ -1,16 +1,19 @@
 .acceuil {
-    font: small-caps bold 24px/1 sans-serif;
-    color: darkslategray;
+    font-family: "Corn";
+    color: whitesmoke;
     text-align: center;
     background-image: url("../images/bg_imercy.png");
     background-size: cover;
+    background-position: center;
 }
 
 .h2_acc {
-    padding-top: 20%;
+    padding-top: 24%;
     padding-bottom: 2%;
+    font-size: 5em;
 }
 
 .p_acc {
-    padding-bottom: 16%
+    padding-bottom: 15%;
+    font-size: 3em;
 }

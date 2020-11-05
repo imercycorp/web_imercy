@@ -1,27 +1,32 @@
 .presentation {
     background-color: white;
     background-size: cover;
-    height: 100%;
-    object-fit: fill;
 }
 
 .div_pr {
-    background-color: white;
-    background-size: fill;
-    height:50px;
-    float: left;
+    margin: auto;
+    margin-bottom: 5%;
 }
 
-.div_por {
-    background-color: white;
-    width:25%;
-    height:100%;
-    float: left;
+.div_t_pr {
+    padding-bottom: 1%;
+    padding-top: 3%;
+    text-align: center;
+    font-family: "Corn";
+    word-wrap: break-word;
 }
 
-.div_pro {
-    background-color: white;
-    width:75%;
-    height:100%;
-    float: left;
+.div_i_g {
+    display: flex;
+    justify-content: space-between;
+    font-family: "MoonR";
+    word-wrap: break-word;
+}
+
+.h2_pf {
+    text-align: center;
+}
+
+.img_pf {
+    padding-left: 7%
 }

@@ -8,6 +8,23 @@
 	padding: 0;
 }
 
+@font-face {
+    font-family: "Azonix";
+    src: url("../fonts/Azonix.otf")
+}
+@font-face {
+    font-family: "OneDay";
+    src: url("../fonts/ONEDAY.otf")
+}
+@font-face {
+    font-family: "Corn";
+    src: url("../fonts/CornDemo-Regular.ttf")
+}
+@font-face {
+    font-family: "MoonR";
+    src: url("../fonts/Moon2.0-Regular.otf")
+}
+
 html {
     background: #e6e9e9;
     background: url("../images/bg_imercy.png") no-repeat center center fixed;
@@ -19,17 +36,22 @@ header {
 }
 
 button {
-    font: small-caps bold 24px/1 sans-serif;
+    font-family: "Corn";
+    font-size: 1em
 }
 
 footer {
-    background-color: grey;
+    background-color: #101010;
+    color: white;
+    display: flex;
+    padding-top: 2%;
+    font-family: "MoonR"
 }
 
 
 .h1_title {
     color: yellow;
-    font: small-caps bold 24px/1 sans-serif;
+    font-family: "OneDay";
     font-size: 3em;
     float: left;
     padding: 1.5%;
@@ -40,4 +62,39 @@ footer {
     margin: 0;
     padding: 2%;
     float: right;
+}
+
+.vl {
+    border-left: 3px solid white;
+    height: 15vh;
+    margin-bottom: 2%
+}
+
+ul {
+    list-style-type: none;
+}
+
+.h2_f_title {
+    padding-left: 17%;
+    padding-right: 16%;
+    font-size: 2em
+}
+
+.ul_f_link {
+    padding-top: 1.5%;
+    padding-right: 8%;
+}
+
+.ul_infos {
+    padding-top: 1.5%;
+    padding-left: 8%;
+}
+
+.li_footer {
+    margin-top: 3%
+}
+
+.img_footer {
+    height: 15vh;
+    margin-left: 10%
 }
